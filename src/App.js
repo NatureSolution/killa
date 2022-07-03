@@ -8,6 +8,7 @@ import Projects from "./component/Home/Projects/Projects";
 import Login from "./component/Home/Login/Login";
 import Blog from "./component/Home/Blog/Blog";
 import RequirAuth from "./component/Home/RequirAuth/RequirAuth";
+import Blogs from "./component/Home/Blogs/Blogs";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
           path="/blog"
           element={
             <RequirAuth>
-              <Blog />
+              <Blogs />
             </RequirAuth>
           }
         ></Route>
